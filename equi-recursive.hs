@@ -5,6 +5,12 @@ import Control.Exception
 import Data.Typeable
 import System.IO.Unsafe
 
+---- Description --------------------------------------------------------------
+
+-- The pure simply typed lambda calculus with recursive types
+
+-- The type checking algorithm is implemented for equi-recursive types
+
 ---- Types and Terms -----------------------------------------------------------
 
 data Ty = TyId String

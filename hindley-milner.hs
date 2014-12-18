@@ -5,6 +5,13 @@ import Control.Exception
 import Data.Typeable
 import System.IO.Unsafe
 
+---- Description --------------------------------------------------------------
+
+-- The simply typed lambda calculus with booleans and numbers
+
+-- The type checking algorithm performs type reconstruction via the popular
+-- Hindley-Milner unification algorithm 
+
 ---- Types and Terms -----------------------------------------------------------
 
 data Ty = TyBool

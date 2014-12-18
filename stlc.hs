@@ -5,6 +5,14 @@ import Control.Exception
 import Data.Typeable
 import System.IO.Unsafe
 
+---- Description --------------------------------------------------------------
+
+-- The simply typed lambda calculus with booleans, numbers, unit, ascription,
+-- let-polymorphism, records, fixpoint, references, and errors
+
+-- The type checking algorithm incorporates some basic Subtyping and
+-- the type Top
+
 ---- Types and Terms -----------------------------------------------------------
 
 data Ty = A

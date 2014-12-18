@@ -5,6 +5,11 @@ import Control.Exception
 import Data.Typeable
 import System.IO.Unsafe
 
+---- Description --------------------------------------------------------------
+
+-- System F (Kernel): The pure simply typed lambda calculus with universal and
+-- existential types as well as bounded quantification and subtyping
+
 ---- Types and Terms -----------------------------------------------------------
 
 data Ty = TyVar Int Int
